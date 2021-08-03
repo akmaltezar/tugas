@@ -1,0 +1,23 @@
+<html>
+<title>Bocor2</title>
+
+<body>
+    <script>
+        function deretAngka(awal, akhir) {
+            for (var y = awal; y < akhir; y++) {
+                for (var x = awal; x < akhir; x++) {
+                    if (x == 10 - (y - 1)) {
+                        // var hasil = x * 2 - 2
+                        document.writeln("x")
+                    } else {
+                        document.writeln("_")
+                    }
+                }
+                document.writeln("</br>")
+            }
+
+        }
+        deretAngka(1, 10)
+    </script>
+</body>
+<html>
